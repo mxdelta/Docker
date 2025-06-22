@@ -25,6 +25,10 @@ echo -e "GET /containers/json HTTP/1.1\r\nHost: localhost\r\n\r\n" | nc local:/v
          
  # просмотр процессов докера
 
+    сборка Docker образа
+
+    docker build -f Dockerfile -t tf2131(название) .
+  
   docker ps
 
   запуск нового контейнера
